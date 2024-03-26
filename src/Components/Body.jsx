@@ -113,7 +113,7 @@ export const Body = () => {
                         </figure>
                         <div className='contenido-carta'>
                             <h3>GymAPI</h3>
-                            <p>Proyecto diseñado en conjunto con compañeros de la univesidad. Trata sobre un sitio web en donde se visualizan ejercicios que se pueden aplicar al entrenamiento del dia a dia</p>
+                            <p>Proyecto diseñado en conjunto con compañeros de la univesidad. Sitio web donde se pueden visualizar ejercicios para entrenamiento diario</p>
                             <div className='icono-carta'>
                                 <div className='tecnologias'>
                                     <div className='elemento angular'>
