@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-header {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    transition: padding 0.3s;
+}
+
+.container-header.scrolled {
+    text-align: center;
+    padding: 15px 0px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border-width: 1px;
+    background-color: #1e293bf0;
+    --tw-backdrop-blur: blur(8px);
+    transition: padding 0.3s;
+}
+
+.container-header.scrolled nav ul a{
+    color:  rgb(255, 255, 255);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 0px;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.2px;
+    transition: 0.7s;
+    font-size: smaller;
+}
+/* Mobile */
+@media (max-width: 480px) {
+    .elemento-nav {
+        font-size: small;
+    }
+    
+
+}
+
+
+/* Extra small devices */
+@media (min-width: 481px) and (max-width: 767px) {
+    .elemento-nav {
+        font-size: small;
+    }
+
+    header{
+        letter-spacing: 2px;
+    }
+
+    .container-header.scrolled {
+        width: 80%;
+      }
+}
+ 
+
+/* Small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .elemento-nav {
+        font-size: medium;
+        margin: 0.5rem;
+    }
+
+    .container-header.scrolled {
+      width: 55%;
+    }
+}
+/* Large tablets/laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .elemento-nav {
+        font-size: medium;
+        margin: 1rem;
+    }
+
+    .container-header.scrolled {
+        width: 45%;
+      }
+
+}
+/* Desktops */
+@media (min-width: 1200px) and (max-width: 1919px) {
+
+    .elemento-nav {
+        font-size: large;
+        margin: 1.5rem;
+    }
+
+    .container-header.scrolled {
+        width: 40%;
+      }
+
+}
+/* Extra large screens */
+@media (min-width: 1920px) {
+
+    .elemento-nav {
+        font-size: large;
+        margin: 2rem;
+    }
+
+    header{
+        letter-spacing: 4px;
+    }
+
+    .container-header.scrolled {
+        width: 33%;
+      }
+}
