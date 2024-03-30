@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container-header {
     background-color: transparent;
     transition: background-color 0.3s ease;
@@ -15,13 +19,13 @@
     margin: 0 auto;
     border-radius: 15px;
     border-width: 1px;
-    background-color: #1e293bf0;
-    --tw-backdrop-blur: blur(8px);
+    background-color: #1e293baa;
+    backdrop-filter: blur(8px);
     transition: padding 0.3s;
 }
 
-.container-header.scrolled nav ul a{
-    color:  rgb(255, 255, 255);
+.container-header.scrolled nav ul a {
+    color: rgb(255, 255, 255);
 }
 
 header {
@@ -61,12 +65,44 @@ header ul li a {
     transition: 0.7s;
     font-size: smaller;
 }
+
+.container-header.scrolled .elemento-nav:hover {
+
+    color: rgb(172, 211, 249);
+ 
+ }
+
+ .elemento-nav:hover {
+    color: rgb(172, 211, 249);
+ } 
+
+ nav .elemento-nav{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    }
+    nav .elemento-nav:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: #0a7cff54;
+    transition: left .8s;
+    }
+    nav .elemento-nav:hover:after {
+    left: 0;
+    }
+
 /* Mobile */
 @media (max-width: 480px) {
     .elemento-nav {
         font-size: small;
     }
-    
+
 
 }
 
@@ -77,15 +113,16 @@ header ul li a {
         font-size: small;
     }
 
-    header{
+    header {
         letter-spacing: 2px;
     }
 
     .container-header.scrolled {
+        padding: 15px 0px;
         width: 80%;
-      }
+    }
 }
- 
+
 
 /* Small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -95,9 +132,11 @@ header ul li a {
     }
 
     .container-header.scrolled {
-      width: 55%;
+        padding: 6px 0px;
+        width: 55%;
     }
 }
+
 /* Large tablets/laptops */
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -107,36 +146,42 @@ header ul li a {
     }
 
     .container-header.scrolled {
+        padding: 2px 0px;
         width: 45%;
-      }
+    }
 
 }
+
 /* Desktops */
 @media (min-width: 1200px) and (max-width: 1919px) {
 
     .elemento-nav {
-        font-size: large;
-        margin: 1.5rem;
+        font-size: medium;
+        margin: 1rem;
     }
 
     .container-header.scrolled {
-        width: 40%;
-      }
+        width: 35%;
+        padding: 0px 0px;
+    }
+
 
 }
+
 /* Extra large screens */
 @media (min-width: 1920px) {
 
     .elemento-nav {
-        font-size: large;
-        margin: 2rem;
+        font-size: medium;
+        margin: 1rem;
     }
 
-    header{
+    header {
         letter-spacing: 4px;
     }
 
     .container-header.scrolled {
-        width: 33%;
-      }
+        width: 30%;
+        padding: 0px 0px;
+    }
 }
