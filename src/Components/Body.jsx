@@ -79,7 +79,7 @@ export const Body = () => {
                 </p>
                 <div className='links'>
                     <div className='cv'>
-                        <a download={'Cv-Santiago Rubini'} href="src\Cv\CV - Santiago Rubini.pdf">Descargar CV</a>
+                        <a download={'Cv-Santiago Rubini'} href="/Cv/CV - Santiago Rubini.pdf">Descargar CV</a>
                     </div>
                     <div className='iconos'>
                         <a href="https://www.linkedin.com/in/santiago-rubini/"><img src="/icons/logotipo-de-linkedin (3).png" alt="" /></a>
