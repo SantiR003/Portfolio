@@ -1,6 +1,7 @@
 import { Header } from "./Header";
 import '../Styles/page.css'
 import { Body } from "./Body";
+import { Footer } from "./Footer";
 
 export const PagePortfolio = () => {
 
@@ -12,6 +13,8 @@ export const PagePortfolio = () => {
                     <Header />
                
                     <Body />
+
+                    <Footer />
                 
             </div >
         </>
