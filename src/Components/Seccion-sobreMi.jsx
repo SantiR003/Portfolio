@@ -5,13 +5,13 @@ export const SobreMi = () => {
     return (
         <>
             <div className='titulo-proyectos titulo-sobreMi'>
-                <img src="src\icons\perfil (2).png" alt="" />
+                <img src="\icons\perfil (2).png" alt="" />
                 <h2>Sobre Mi</h2>
             </div>
 
             <div className='contenedor-informacion-sobreMi'>
                 <div className='sobreMi-imagen'>
-                    <img src="src\img\imagen de yo, recortada.png" alt="" />
+                    <img src="\img\imagen de yo, recortada.png" alt="" />
                 </div>
                 <div className='sobreMi-texto'>
                     <p className='texto-sobreMi texto-presentacion'>
