@@ -590,7 +590,6 @@ input.mail:focus {
 
 }
 
-
 /* Extra small devices */
 @media (min-width: 481px) and (max-width: 767px) {
 
@@ -643,6 +642,10 @@ input.mail:focus {
   .sobreMi-imagen img {
     width: 100%;
     display: relative;
+  }
+
+  .contenedor-habilidades{
+    padding: 3rem;
   }
 
 }
