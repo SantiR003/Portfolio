@@ -107,7 +107,7 @@ export const Proyectos = () => {
                             </div>
                         </div>
                         <div className='link'>
-                            <a href="https://github.com/SantiR003/Through-the-Darkness"><img src="\icons\signo-de-github.png" alt="" /></a>
+                            <a href="https://github.com/SantiR003/Portfolio.git"><img src="\icons\signo-de-github.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
