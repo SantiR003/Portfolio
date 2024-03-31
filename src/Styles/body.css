@@ -86,7 +86,7 @@ h1 {
   width: 2rem;
 }
 
-.iconos:focus{
+.iconos:focus-visible{
   outline: none;
 }
 
