@@ -59,7 +59,7 @@ export const Habilidades = () => {
                             <p>Java</p>
                         </li>
                         <li className='habilidad elemento c'>
-                            <img src="src\icons\download-removebg-preview (1).png" alt="" />
+                            <img src="\icons\download-removebg-preview (1).png" alt="" />
                             <p>C</p>
                         </li>
                         <li className='habilidad elemento mysql'>
